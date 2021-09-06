@@ -5,23 +5,31 @@ The goal with this application is to notify you and your team and give you a vis
 ## Setup
 To setup and use this application, please see [this blog post](https://almenscorner.io/introducing-intune-notifications-app/).
 
+## Update
+If you already have the app imported when downloading the latest release, make sure "Update" is selected. If new flows have been added they should be imported as "Create new"
+
 ## App overview
 ### Home screen
-The home screen is where you see all notifications, at this time it monitors APNs certificate expiry, ABM token expiry, VPP token expiry, ABM sync failures and VPP sync failures. If a token/certificate is about to expire in 30 days, the notification will be shown here as a warning, inidcated by the orange circle. If a sync fails to any of the services, a notification with a red circle is shown to indicate an error. At the bottom of the screen is an overview of the services sync status. If any token fails a sync the green check mark will be switched to the orange warning sign.
+The home screen is where you see all notifications, at this time it monitors APNs certificate expiry, ABM token expiry, VPP token expiry, ABM sync failures and VPP sync failures. If a token/certificate is about to expire in 30 days, the notification will be shown here as a warning, inidcated by the orange circle. If a sync fails to any of the services, a notification with a red circle is shown to indicate an error. At the bottom of the screen is an overview of the services sync status. If any token fails a sync the green check mark will be switched to the orange warning sign. If a service is turned off in settings, a grey circle will be shown on the turned off service under Sync status.
 
-![HomeScreen](https://user-images.githubusercontent.com/78877636/131859982-b35664b9-103c-4e03-bc67-d2ba90d17067.png)
+![HomeScreen](![Home12](https://user-images.githubusercontent.com/78877636/132257861-3d501cbd-6799-4c4a-a922-38fe0d7e213b.jpg)
 
-### ABM details screen
-Shows details about all connected ABM tokens, here you can also see which one has failed the sync.
+### Menu
+![Menu](https://user-images.githubusercontent.com/78877636/132257899-613c1193-9227-43d7-abb5-d71b06e5a70c.jpg)
 
-![ABMDetailScreen](https://user-images.githubusercontent.com/78877636/131860549-7f6ac9e0-65aa-4489-8dd7-0c1f9cf1382f.png)
+### Apple Business Manager screen
+Shows details about all connected ABM tokens, here you can also see which one has failed the sync
 
-### VPP details screen
+### Volume Purchase Program screen
 Shows details about all connected VPP tokens, here you can also see which one has failed the sync.
 
-![VPPdetailsScreen](https://user-images.githubusercontent.com/78877636/131860391-9d05f060-cc49-4741-80a0-ef9fa5cdfbb7.png)
+### Managed Google Play screen
+Shows details about Managed Google Play, here you can also see if it has failed to sync
 
-### Managed Google Play details screen
-Shows details about Managed Google Play, here you can also see if it has failed to sync.
+### Settings screen
+Here you can turn services on and off that you want to monitor. If a service is turned on, the flow will run and if it's off it will not.
 
-![GPlaydetailScreen](https://user-images.githubusercontent.com/78877636/131860729-fd182fea-ef0a-4ecd-8004-7abbfdc70348.png)
+![Settings](https://user-images.githubusercontent.com/78877636/132257956-01a4e017-9169-4cab-a38f-c7b8958e3a83.jpg)
+
+### About
+Quick info about the app and where to reach out if you have feedback or questions.
