@@ -12,7 +12,7 @@ If you already have the app imported when downloading the latest release, make s
 ### Home screen
 The home screen is where you see all notifications, at this time it monitors APNs certificate expiry, ABM token expiry, VPP token expiry, ABM sync failures and VPP sync failures. If a token/certificate is about to expire in 30 days, the notification will be shown here as a warning, inidcated by the orange circle. If a sync fails to any of the services, a notification with a red circle is shown to indicate an error. At the bottom of the screen is an overview of the services sync status. If any token fails a sync the green check mark will be switched to the orange warning sign. If a service is turned off in settings, a grey circle will be shown on the turned off service under Sync status.
 
-![HomeScreen]((https://user-images.githubusercontent.com/78877636/132258159-8d8d14b6-23df-4751-9cd0-8c7ccb65d0b4.jpg)
+![HomeScreen](https://user-images.githubusercontent.com/78877636/132258159-8d8d14b6-23df-4751-9cd0-8c7ccb65d0b4.jpg)
 
 ### Menu
 ![Menu](https://user-images.githubusercontent.com/78877636/132258175-86a98968-b999-4272-9d94-00b588b95db5.jpg)
