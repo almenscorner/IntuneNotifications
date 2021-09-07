@@ -2,6 +2,9 @@
 
 The goal with this application is to notify you and your team and give you a visual indication if any tokens/certificates is about to expire or if a sync fails to connected services. For me this is a really handy tool when on the go, there's been multiple times when a sync has failed to ABM/VPP and I only knew once I signed in to the MEM console to check.
 
+## Download
+You can find the latest release of this app under releases and the latest flow for push notifications in the repository.
+
 ## Setup
 To setup and use this application, please see [this blog post](https://almenscorner.io/introducing-intune-notifications-app/).
 
